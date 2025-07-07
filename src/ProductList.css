@@ -163,12 +163,23 @@ body {
 .cart{
     color: white;
     display: flex;
+    position: relative;
+
 }
+.cart-badge {
+  position: absolute;
+  top: 23px;
+  right: 34px;
+  color:white;
+  padding: 4px;
+  font-size: 29px;
+}
+
 .cart_quantity_count{
     margin-top: 16px;
     /* background-color: red; */
     margin-left: 27px;
-    position: absolute;
+    position: relative;
     font-size: 29px;
 
 }
